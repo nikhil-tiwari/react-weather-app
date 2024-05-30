@@ -115,3 +115,18 @@ Used to fetch current weather and 5-day forecast data based on the selected city
     ├── .env
     ├── package.json
     └── README.md
+
+## Future Enhancements
+
+- Add more detailed error handling and user feedback.
+- Include more weather metrics and visualizations.
+- Implement user preferences for units (metric/imperial).
+- Optimize the search functionality for better performance.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
