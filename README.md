@@ -70,51 +70,19 @@ Used to fetch current weather and 5-day forecast data based on the selected city
    ```bash
    git clone <repository_url>
    cd weather-app
-
 2. **Install dependencies:**
    ```bash
    npm install
-
 3. **Set up environment variables:**
    Create a .env file in the root directory and add your API keys:
    ```plaintext
    REACT_APP_GEO_API_KEY=your_geodb_api_key
    REACT_APP_WEATHER_API_KEY=your_openweather_api_key
-
 4. **Start the development server:**
    ```bash
    npm start
-
-
 5. **Open the application:**
    Open your browser and navigate to http://localhost:3000
-
-## Folder Structure
-
-```plaintext
-    weather-app/
-    │
-    ├── public/
-    │   ├── icons/               # Weather icons
-    │   └── index.html
-    │
-    ├── src/
-    │   ├── components/
-    │   │   ├── search/          # Search component
-    │   │   ├── current-weather/ # Current weather component
-    │   │   └── forecast/        # Forecast component
-    │   │
-    │   ├── api/                 # API functions
-    │   │   └── api.js
-    │   │
-    │   ├── App.js
-    │   ├── App.css
-    │   ├── index.js
-    │   └── index.css
-    │
-    ├── .env
-    ├── package.json
-    └── README.md
 
 ## Future Enhancements
 
@@ -123,10 +91,29 @@ Used to fetch current weather and 5-day forecast data based on the selected city
 - Implement user preferences for units (metric/imperial).
 - Optimize the search functionality for better performance.
 
-## Contributing
+## Folder Structure
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+```plaintext
+weather-app/
+│
+├── public/
+│   ├── icons/               # Weather icons
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── search/          # Search component
+│   │   ├── current-weather/ # Current weather component
+│   │   └── forecast/        # Forecast component
+│   │
+│   ├── api/                 # API functions
+│   │   └── api.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+│
+├── .env
+├── package.json
+└── README.md
