@@ -25,7 +25,7 @@ function App() {
   };
                       
   // console.log(currentWeather);
-  console.log(forecast);
+  // console.log(forecast);
 
   return (
     <div className="container">
